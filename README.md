@@ -34,3 +34,10 @@
 [![Open Miro Board](https://img.shields.io/badge/Miro-Open%20Board-ffca00?logo=miro&logoColor=000)](https://miro.com/app/board/uXjVJIw_vis=/?share_link_id=174491524429)
 
 - 🧭 บอร์ดอธิบาย Flow ของ **ผู้ใช้ทั่วไป (User)** และ **ผู้ดูแลระบบ (Admin)** ตั้งแต่ Register/Login → Room List → Booking → My Bookings → Manage Rooms
+
+## Unit Tests & Coverage
+
+Run locally:
+```bash
+coverage run manage.py test
+coverage report -m

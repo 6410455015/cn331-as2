@@ -1,0 +1,11 @@
+[run]
+branch = True
+source =
+    rooms
+    roomBooking
+
+[report]
+omit =
+    */migrations/*
+    manage.py
+show_missing = True
